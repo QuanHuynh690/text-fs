@@ -1,0 +1,38 @@
+.button-container {
+  margin: 30px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 50px;
+  touch-action: none;
+  cursor: pointer;
+  border: none;
+  &:active {
+    color: #000;
+  }
+  &.orange {
+    background-color: #f77b33;
+    &:hover {
+      color: #f77b33;
+      background-color: #fff;
+      border: #f77b33 1px solid;
+    }
+  }
+  &.blue {
+    background-color: #003cff;
+    &:hover {
+      color: #003cff;
+      background-color: #fff;
+      border: #003cff 1px solid;
+    }
+  }
+}

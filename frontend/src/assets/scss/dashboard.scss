@@ -1,0 +1,30 @@
+.display-box {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  margin: auto;
+  margin-top: 100px;
+}
+.counter-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.counter-wrap {
+  display: flex;
+  .counter-box {
+    width: 100px;
+    border-radius: 5%;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    &.orange {
+      background-color: #f77b33;
+    }
+    &.blue {
+      background-color: #003cff;
+    }
+  }
+}
